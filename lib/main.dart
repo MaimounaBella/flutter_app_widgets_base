@@ -1,3 +1,4 @@
+//Atelier Flutter 02 – Widgets de base
 import 'package:flutter/material.dart';
 
 void main() {
@@ -80,3 +81,4 @@ class MainApp extends StatelessWidget {
     );
   }
 }
+// Fin de l'atelier Flutter 02 – Widgets de base

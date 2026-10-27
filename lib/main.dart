@@ -13,15 +13,16 @@ class MainApp extends StatelessWidget {
       home: Scaffold(
   body: Center(
     child: Column(
-      mainAxisAlignment: MainAxisAlignment.center,
+      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+      crossAxisAlignment: CrossAxisAlignment.center,
       children: [
         Text('Hello World!'),
         Text('Bienvenue Maimouna dans ton application Flutter !'),
         Container(
-          margin: EdgeInsets.all(20),
-          padding: EdgeInsets.all(16),
+          margin: EdgeInsets.all(12),
+          padding: EdgeInsets.all(20),
           decoration: BoxDecoration(
-          color: Colors.deepPurple,
+          color: Colors.teal,
           borderRadius: BorderRadius.circular(24),
           ),
           child: Text(
